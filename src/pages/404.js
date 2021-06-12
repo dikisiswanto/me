@@ -1,5 +1,5 @@
-import { Button } from "@chakra-ui/button";
-import { Heading, Stack, Text } from "@chakra-ui/layout";
+import { Button } from '@chakra-ui/button';
+import { Heading, Stack, Text } from '@chakra-ui/layout';
 
 export default function custom404() {
   return (
@@ -8,5 +8,5 @@ export default function custom404() {
       <Text fontSize="lg">You went to wrong path. Nothing found here!</Text>
       <Button color="primary" as="a" href="/">Back to home</Button>
     </Stack>
-  )
+  );
 }

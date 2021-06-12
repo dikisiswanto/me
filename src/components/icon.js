@@ -1,9 +1,9 @@
-import * as Icons from "react-icons/fi";
+import * as Icons from 'react-icons/fi';
 
 export default function DynamicFiIcon({ name }) {
   const IconComponent = Icons[name];
 
-  if (!IconComponent) { // Return a default one
+  if (!IconComponent) {
     return <Icons.FiList />;
   }
 
