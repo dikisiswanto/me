@@ -1,0 +1,28 @@
+{
+  "navs": [
+    {
+      "id": 1,
+      "name": "Home",
+      "path": "/",
+      "icon": "FiHome"
+    },
+    {
+      "id": 2,
+      "name": "Portfolio",
+      "path": "/portfolio",
+      "icon": "FiFolder"
+    },
+    {
+      "id": 3,
+      "name": "Blog",
+      "path": "/blog",
+      "icon": "FiEdit"
+    },
+    {
+      "id": 4,
+      "name": "About",
+      "path": "/about",
+      "icon": "FiInfo"
+    }
+  ]
+}

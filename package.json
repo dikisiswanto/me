@@ -1,0 +1,23 @@
+{
+  "name": "dikisiswanto.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/montserrat": "^4.4.5",
+    "@fontsource/source-serif-pro": "^4.4.5",
+    "framer-motion": "^4",
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0"
+  }
+}
