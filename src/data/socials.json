@@ -1,0 +1,22 @@
+{
+  "socials": [
+    {
+      "id": 1,
+      "icon": "FiFacebook",
+      "link": "https://fb.me/dicky.achmdy",
+      "name": "facebook"
+    },
+    {
+      "id": 2,
+      "icon": "FiLinkedin",
+      "link": "https://linkedin.com/in/dikisiswanto",
+      "name": "linkedin"
+    },
+    {
+      "id": 3,
+      "icon": "FiGithub",
+      "link": "https://github.com/dikisiswanto",
+      "name": "github"
+    }
+  ]
+}

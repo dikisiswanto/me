@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "silir.png",
+      "title": "Tema Silir",
+      "description": "Template for OpenSID web module. Offered as premium product.",
+      "tags": ["TailwindCSS", "PHP", "JQuery", "HighChart.js"],
+      "repo": "",
+      "link": "https://preview.silirdev.com"
+    },
+    {
+      "id": 2,
+      "image": "layar-tancap.png",
+      "title": "Layar Tancap",
+      "description": "Movie catalogue web app. Built with Web Components",
+      "tags": ["Web Component", "Webpack"],
+      "repo": "https://github.com/dikisiswanto/layar-tancap",
+      "link": "https://dikisiswanto.github.io/layar-tancap"
+    },
+    {
+      "id": 3,
+      "image": "quranku.png",
+      "title": "Quranku",
+      "description": "Mini web app that provides list of surah in quran with transliteration in Bahasa Indonesia",
+      "tags": ["Next.js", "TailwindCSS", "PWA"],
+      "repo": "https://github.com/dikisiswanto/quranku",
+      "link": "https://quranku.silirdev.com"
+    },
+    {
+      "id": 4,
+      "image": "barka.png",
+      "title": "Tema Barka",
+      "description": "Open source template for Sekolahku CMS.",
+      "tags": ["TailwindCSS", "PHP", "JQuery"],
+      "repo": "https://github.com/dikisiswanto/barka",
+      "link": "https://barka.silirdev.com"
+    },
+    {
+      "id": 4,
+      "image": "restooo.png",
+      "title": "Restooo",
+      "description": "Resto mini web project. Implement web components and PWAs",
+      "tags": ["Web Components", "Webpack", "PWA", "IndexedDB", "Testing"],
+      "repo": "https://github.com/dikisiswanto/restooo",
+      "link": "https://dikisiswanto.github.io/restooo"
+    }
+  ]
+}
