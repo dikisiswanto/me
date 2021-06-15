@@ -146,7 +146,7 @@ export default function About({ css, img }) {
             </VStack>
           </VStack>
           <VStack spacing={2} alignItems="flex-start">
-            <Heading as="h4" fontSize={['lg', 'xl']} color="secondary">Languages and tools</Heading>
+            <Heading as="h4" fontSize={['lg', 'xl']} color="secondary">Languages &amp; tools</Heading>
             <VStack spacing={2} alignItems="flex-start" py={2}>
               {data.technologies.map((tech) => (
                 <List>
