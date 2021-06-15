@@ -2,9 +2,9 @@
   "socials": [
     {
       "id": 1,
-      "icon": "FiFacebook",
-      "link": "https://fb.me/dicky.achmdy",
-      "name": "facebook"
+      "icon": "FiMail",
+      "link": "mailto:siswantod16d@student.unhas.ac.id",
+      "name": "email"
     },
     {
       "id": 2,
@@ -17,6 +17,12 @@
       "icon": "FiGithub",
       "link": "https://github.com/dikisiswanto",
       "name": "github"
+    },
+    {
+      "id": 4,
+      "icon": "FiFacebook",
+      "link": "https://fb.me/dicky.achmdy",
+      "name": "facebook"
     }
   ]
 }

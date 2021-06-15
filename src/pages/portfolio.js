@@ -1,5 +1,5 @@
 import {
-  Container, Grid, Heading, Text, Box, Stack, HStack, Tag, Tooltip,
+  Container, Grid, Heading, Text, Box, Stack, HStack, Tag, Tooltip, VStack,
 } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/button';
 import Image from 'next/image';
@@ -19,8 +19,8 @@ export async function getStaticProps() {
       const { css, img } = await getPlaiceholder(src.image, { size: 4 });
       return {
         ...img,
-        alt: 'Project portfolio',
-        title: 'Project portfolio',
+        alt: meta.title,
+        title: meta.title,
         css,
         data: {
           ...meta,
@@ -38,12 +38,26 @@ export async function getStaticProps() {
 
 export default function Portfolio({ images }) {
   return (
-    <Container maxW="container.lg" py={5}>
-      <Heading fontSize={{ base: '3xl', lg: '4xl' }}>Portfolio</Heading>
-      <Text fontSize={{ base: 'base', lg: 'lg' }}>Project or something I&apos;ve made</Text>
-      <Grid templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }} gap={{ base: 4, lg: 5 }} py={8}>
+    <Container
+      maxW="container.lg"
+      py={5}
+    >
+      <Heading fontSize={['3xl', '4xl']}>Portfolio</Heading>
+      <Text fontSize={['base', 'lg']}>Project or something I&apos;ve made</Text>
+      <Grid
+        templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+        gap={{ base: 4, lg: 5 }}
+        py={8}
+      >
         {images.map(({ css, data, ...img }) => (
-          <Stack spacing={2} boxShadow="xl" bg="gray.700" overflow="hidden" borderRadius="lg" key={data.id}>
+          <Stack
+            spacing={2}
+            boxShadow="xl"
+            bg="gray.700"
+            overflow="hidden"
+            borderRadius="lg"
+            key={data.id}
+          >
             <Box sx={{ position: 'relative', display: 'block', overflow: 'hidden' }}>
               <Box
                 sx={{
@@ -67,7 +81,7 @@ export default function Portfolio({ images }) {
               <Text>{data.description}</Text>
               <HStack spacing={2} py={2} wrap="wrap">
                 {data.tags.map((tag) => (
-                  <Tag>{tag}</Tag>
+                  <Tag my={2} key={tag}>{tag}</Tag>
                 ))}
               </HStack>
               <HStack spacing={2}>
@@ -85,8 +99,18 @@ export default function Portfolio({ images }) {
             </Stack>
           </Stack>
         ))}
-
       </Grid>
+      <VStack mb={['4rem !important', 0]}>
+        <Button
+          as="a"
+          target="_blank"
+          colorScheme="green"
+          mx="auto"
+          href="https://github.com/dikisiswanto"
+        >
+          See more on my GitHub
+        </Button>
+      </VStack>
     </Container>
   );
 }

@@ -1,0 +1,51 @@
+{
+  "name": "Diki Siswanto",
+  "avatar": "profile.jpg",
+  "description": "He/him, 22 years old. A person who loves the beauty of web. Passionate and enthusiastic about web programming, especially on front-end web development. Not a fast learner, but willing to learn new things and grow his skills up.",
+  "activities": [
+    "Currently working on my undergraduate research proposal",
+    "Learning JavaScript and new web technology",
+    "Develop and maintain template design for OpenSID web module"
+  ],
+  "educations": [
+    {
+      "degree": "Senior High School",
+      "institution": "MA Al-Falah Lemahabang",
+      "start_year": "2013",
+      "end_year": "2016"
+    },
+    {
+      "degree": "Bachelor Degree: Informatics",
+      "institution": "Hasanuddin University",
+      "start_year": "2016",
+      "end_year": "present"
+    }
+  ],
+  "experiences": [
+    {
+      "title": "IT Support Intern",
+      "organization": "CV. Aplikasi Indonesia Peduli Pendidikan [AIDU]",
+      "from": "April 2019",
+      "until": "Mei 2019",
+      "task": "Develop a REST API based on the CodeIgniter PHP framework that is used for one of the services that AIDU provides. It is a simulation and online exams service"
+    },
+    {
+      "title": "Frontend Web Developer",
+      "organization": "Fairtech, Pte. Ltd",
+      "from": "July 2020",
+      "until": "September 2020",
+      "task": "Transform UI Design into static web pages for their internal project. The technology used including Nunjucks for HTML template rendering, SASS for CSS Preprocessing, and JavaScript"
+    }
+  ],
+  "technologies": [
+    "HTML/HTML5",
+    "CSS/CSS3",
+    "PHP",
+    "Vanilla JavaScript",
+    "['React', 'Next.js'] and other JavaScript frameworks for FE",
+    "CSS Preprocessor ['SASS', 'PostCSS']",
+    "['Bootstrap', 'Tailwind CSS', 'Materialize.css'] and other CSS frameworks",
+    "['Web Components', 'Progressive Web App']",
+    "Version Control System [Git, 'GitHub', 'GitLab', 'BitBucket']"
+  ]
+}
