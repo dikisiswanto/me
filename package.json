@@ -1,34 +1,44 @@
 {
   "name": "dikisiswanto.github.io",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "lint": "eslint ./src/**/*.js",
-    "lint:fix": "eslint ./src/**/*.js --fix"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "precommit": "lint-staged",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "*{.js,.jsx,.ts,.tsx}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.3",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "@plaiceholder/next": "^2.0.3",
-    "framer-motion": "^4",
-    "next": "^10.2.3",
-    "nextjs-progressbar": "^0.0.10",
-    "plaiceholder": "^2.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.21.5",
-    "sharp": "^0.28.3"
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "clsx": "^2.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
+    "postcss": "^8.4.28",
+    "prettier": "^3.0.2",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
   }
 }
